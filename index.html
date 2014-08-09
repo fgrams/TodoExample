@@ -1,0 +1,55 @@
+<!-- TodoExample Program
+     A program for keeping track of a todo list.
+     Frank Grams, August 2014 -->
+
+<html>
+<head>
+    <title>Todo List Demo Program</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script 
+        src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js">
+    </script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div id="header">
+        <h1>Todo List</h1>
+    </div>
+    
+    <p id="helpText">
+        This is a demo program for handling a todo list. To exit help,
+        click the &quotHelp&quot button again. To add a todo list item,
+        enter the name of the todo list item in the text entry box and
+        click &quotAdd Item&quot. To remove a todo list item, click the
+        list item and click &quotRemove Item&quot. To move a todo list item,
+        click the list item and click either the &quotMove Up&quot or
+        &quotMove Down&quot button.
+    </p>
+    
+    <ul id="todoList">
+    </ul>
+    
+    <div id="footer">
+        <div class="button" id="addButton">
+            <p class="buttonText">Add Item</p>
+        </div>
+        <div class="button" id="removeButton">
+            <p class="buttonText">Remove Item</p>
+        </div>
+        <div class="button" id="upButton">
+            <p class="buttonText">Move Up</p>
+        </div>
+        <div class="button" id="downButton">
+            <p class="buttonText">Move Down</p>
+        </div>
+        <div class="button" id="helpButton">
+            <p class="buttonText">Help</p>
+        </div>
+        
+        <form>
+            Text Entry: <input type="text" name="textInput" id="textInput">
+        </form>
+    </div>
+</body>
+</html>

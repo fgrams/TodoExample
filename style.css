@@ -1,0 +1,93 @@
+/* TodoExample Program
+   A program for keeping track of a todo list.
+   Frank Grams, August 2014 */
+
+body {
+    font-family:sans-serif;
+    background-color:black;
+    color:white
+}
+
+div {
+    background-color:black;
+    border-color:white;
+    color:inherit;
+    overflow:auto
+}
+
+p {
+    color:inherit
+}
+
+li {
+    color:inherit
+}
+
+ul {
+    list-style-type:none;
+    overflow:auto
+}
+
+form {
+    margin-top:10px;
+    float:left;
+    clear:both;
+}
+
+#helpText {
+    padding-bottom:250px;
+    padding-top:40px;
+    display:none
+}
+
+#header {
+    position:fixed;
+    border-bottom-style:solid;
+    border-bottom-width:2px;
+    width:100%;
+    top:0px;
+    overflow:auto
+}
+
+#footer {
+    position:fixed;
+    border-top-style:solid;
+    border-top-width:2px;
+    padding:5px;
+    width:100%;
+    bottom:0px;
+}
+
+h1 {
+    text-align:center;
+    margin:5px;
+    background-color:inherit;
+}
+
+.selected {
+    background-color:white;
+    color:black
+}
+
+.button {
+    float:left;
+    height:25px;
+    width:125px;
+    border-style:solid;
+    border-width:2px;
+    border-radius:10px;
+    margin:2px
+}
+
+.buttonText {
+    position:relative;
+    text-align:center;
+    bottom:11px;
+    color:inherit
+}
+
+#todoList {
+    padding-bottom:250px;
+    padding-top:40px;
+    overflow:auto
+}
